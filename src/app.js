@@ -1,5 +1,5 @@
-const path = require('path')
-const express = require('express')
+const path = require('path');
+const express = require('express');
 const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
@@ -99,4 +99,4 @@ app.get('*', (req, res) => {
 
 app.listen(port, () => {
     console.log('Server is up on port ' + port)
-})
+});
